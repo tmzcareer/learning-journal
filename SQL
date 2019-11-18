@@ -1,0 +1,7 @@
+# SQL
+
+# row_number() vs group by
+select DEPARTMENT, SALARY, row_number() over(partition by DEPARTMENT order by SALARY) RANK from EMPLOYEE where RANK = 1;
+select DEPARTMENT, max(SALARY) from EMPLOYEE group by DEPARTMENT;
+
+# dummy varaible
