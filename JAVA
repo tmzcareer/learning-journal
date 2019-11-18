@@ -1,0 +1,12 @@
+# JAVA
+
+# package
+import com.metlife.mdfe.javautils.PropertyManager;     // company.project.module.Class
+
+import java.io.*;
+import java.util.*;
+import java.lang;
+
+
+# try
+
