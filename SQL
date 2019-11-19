@@ -2,6 +2,36 @@
 
 # row_number() vs group by
 select DEPARTMENT, SALARY, row_number() over(partition by DEPARTMENT order by SALARY) RANK from EMPLOYEE where RANK = 1;
-select DEPARTMENT, max(SALARY) from EMPLOYEE group by DEPARTMENT;
+select DEPARTMENT, max(SALARY) from EMPLOYEE group by DEPARTMENT;???
 
-# xxx vs pandas dummy
+select *, Ranking from
+(SELECT dept_no, salary, row_number() over(partition by dept_no order by salary) Ranking from 
+(select x.dept_no, a.salary from employees.dept_emp x
+left join salaries a on x.emp_no = a.emp_no
+) temp1
+)temp2
+where Ranking = 1; 可以
+
+
+select *, Ranking from
+(SELECT x.dept_no, a.salary, row_number() over(partition by dept_no order by salary) Ranking from  employees.dept_emp x
+left join salaries a on x.emp_no = a.emp_no
+) temp1
+where Ranking = 1;可以
+
+
+SELECT x.dept_no, a.salary, row_number() over(partition by dept_no order by salary) Ranking from  employees.dept_emp x
+left join salaries a on x.emp_no = a.emp_no
+where Ranking = 1; 不行
+
+
+
+
+
+
+
+# where vs left join on
+
+# sql vs pandas dummy??
+
+
