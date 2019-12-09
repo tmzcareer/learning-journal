@@ -32,7 +32,7 @@ Map<String, String> map = new HashMap<String, String>(); -> put(k,v), keySet(),
 
 # REST API
 
-# Intelli J + Java
+# IntelliJ/Jshell + Java
 # Pycharm + Python
 
 
@@ -46,25 +46,17 @@ Map<String, String> map = new HashMap<String, String>(); -> put(k,v), keySet(),
 
 
 
-## LINUX
-cd
-sh
+## LINUX 
+cd/mkdir/ls/rm/cat/wc/grep/head/tr/sed/sh/
+hdfs/spark-shell/spark-sql/spark-submit/git/hive
+
 如何封装Java文件到shell
-# Git
-
-
-# HDFS
-hdfs dfs -cat | grep '' | wc -l
-ls/mkdir
 
 
 
-## Hive
-## SQL
-
-# group by vs row_number()
+# group by vs row_number() over()
 # where vs on
-# case when end vs where
+# case when then end vs where
 # substr, concat,
 
 
