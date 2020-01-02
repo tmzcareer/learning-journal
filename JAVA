@@ -4,71 +4,44 @@
 # package
 package com.metlife.mdfe.javautils;
 import com.metlife.mdfe.javautils.PropertyManager;      // company.project.module.Class
-各个包配合property constant .idea
-# jar command
-
+??各个包是怎么配合的 .config
+# IntelliJ/Jshell
+?? jar命令
+# Pycharm/Python
 
 
 ## JAVA
-
-
-#
-Core Java
-class/field/constructor/method
-override/super
-public/private/protected/static/final/abstract
-this/
 # 
+class/field/constructor/method
+super(override)/this/public/private/protected/static/final/abstract/exception/try/catch/
+#
 import java.io.*;         // File
 import java.util.*;       // ArrayList, LinkedList, HashMap, HashSet
-
 List<String> list = new ArrayList<String>(); -> add(x)
 Map<String, String> map = new HashMap<String, String>(); -> put(k,v), keySet(),
-
-# generics
-
-# exception
-# try catch
-
-# REST API
-
-# IntelliJ/Jshell + Java
-# Pycharm + Python
-
-
-
-
-
-
-
-
-
 
 
 
 ## LINUX 
 cd/mkdir/ls/rm/cat/wc/grep/head/tr/sed/sh/
 hdfs/spark-shell/spark-sql/spark-submit/git/hive
-
-如何封装Java文件到shell
-
+??封装代码到shell
 
 
-# group by vs row_number() over()
-# where vs on
-# case when then end vs where
-# substr, concat,
+
+## Microservice
+independent applications/different server instances/REST API
+deployment technology flexibility/scaled separately/architecture complexity/service discovery
 
 
 ## Spark
 spark-shell
 spark-sql/ run hive queries but more functions provided
 
-
-## Excel
-# filter
-
-
+# group by vs row_number() over() distinct 
+# where vs on
+# case when then end vs where
+# substr, concat,
 
 # scala
 json生成db
@@ -78,17 +51,13 @@ entityGenerator
 
 
 
-
-
 # 进程锁
 # 消息队列
 # 系统设计
-
-
 # 算法
 https://www.zhihu.com/question/19830721/answer/667233164?utm_source=wechat_session&utm_medium=social&utm_oi=926441994660761600
 数据结构
-九章算
+
 
 
 
