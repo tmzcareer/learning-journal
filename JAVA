@@ -59,6 +59,24 @@ https://www.zhihu.com/question/19830721/answer/667233164?utm_source=wechat_sessi
 数据结构
 
 
+java/kotlin/gravvy
+maven/gradle/git
+
+Intellij中的resource文件怎么把properties传入运行环境
+产品/设计/开发/测试unittest/运维
+Is not null 还是 != null
+
+java -version
+JShell
+linux
+/script    cat test.csv | head -n1 | tr ‘,’ ‘\n’ | sed ’s/“//g’
+/.bin
+
+hbase/Rowkey
+Titan/GraphDatabase
+sparkGraph
+
+
 
 
 
